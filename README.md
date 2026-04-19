@@ -2,7 +2,7 @@
 # ACC102 Track 2: NYC Airbnb 2019 Data Analysis
 
 ## 1. Problem & User
-This project analyzes the 2019 New York City Airbnb open dataset to understand pricing patterns, geographic distribution, room types, and review activity. The goal is to discover useful insights for travelers, potential hosts, and tourism researchers.
+This project analyzes the 2019 New York City Airbnb open dataset to understand pricing patterns, geographic distribution, room types, and review activity. The goal is to provides clear price and location insights for travelers to save money, and helps hosts set competitive prices to improve their occupancy.
 
 Target users:
 - Travelers looking for affordable accommodation in NYC
@@ -17,7 +17,7 @@ Target users:
 
 ## 3. Methods (Python Workflow)
 1. Import libraries: pandas, matplotlib, seaborn
-2. Load the dataset
+2. Load the dataset and inspect basic structure (shape, columns, data types)
 3. Data cleaning: remove duplicates, drop missing values, filter price outliers (10–1000 USD)
 4. Create 4 visualizations:
    - Listings count by area

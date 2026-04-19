@@ -16,6 +16,7 @@ Target users:
 - Content: Information on Airbnb listings across New York City including host details, location, price, room type, minimum nights, number of reviews, and availability.
 
 ## 3. Methods (Python Workflow)
+The analysis is completed in Python using Jupyter Notebook. Main steps:
 1. Import libraries: pandas, matplotlib, seaborn
 2. Load the dataset and inspect basic structure (shape, columns, data types)
 3. Data cleaning: remove duplicates, drop missing values, filter price outliers (10–1000 USD)
@@ -34,15 +35,23 @@ Target users:
 - Lower-priced listings tend to have more reviews.
 
 ## 5. How to Run
-1. Place AB_NYC_2019.csv in the same folder
-2. Install required packages:
+1. Clone or download this repository
+2. Place AB_NYC_2019.csv in the same folder
+3. Install required packages:
    pip install pandas matplotlib seaborn
-3. Run the Jupyter notebook or Python script
+4. Run the Jupyter notebook or Python script
 
 ## 6. Product Link & Demo Video
 - GitHub Repository: https://github.com/RuizheHuang24/ACC012_Track2_Airbnb.git
 - Demo Video: [PASTE YOUR VIDEO LINK HERE]
 
 ## 7. Limitations & Next Steps
-Limitations: Data is from 2019; no time or seasonal factors included.
-Next steps: Add interactive charts, price prediction, or recent data comparison.
+Limitations:
+- Data is from 2019 and may not reflect current market conditions
+- Missing values may affect some calculations
+- No external economic or seasonal data included
+
+Future improvements:
+- Compare data across multiple years
+- Build a simple price prediction model
+- Analyze seasonal trends and neighbourhood-level demand

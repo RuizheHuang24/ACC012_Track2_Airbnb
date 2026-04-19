@@ -1,16 +1,19 @@
-# ACC012_Track2_Airbnb
+# ACC102_Track2_Airbnb
 # ACC102 Track 2: NYC Airbnb 2019 Data Analysis
-GitHub Data Analysis Project | Beginner Level
 
 ## 1. Problem & User
-This project analyzes Airbnb listing prices, areas, room types, and review numbers in New York City.
-Intended users: travelers, accommodation planners, and Airbnb hosts.
+This project analyzes the 2019 New York City Airbnb open dataset to understand pricing patterns, geographic distribution, room types, and review activity. The goal is to discover useful insights for travelers, potential hosts, and tourism researchers.
+
+Target users:
+- Travelers looking for affordable accommodation in NYC
+- Hosts who want to understand market competition and pricing
+- Students and researchers studying short-term rental markets
 
 ## 2. Data
 - Dataset: AB_NYC_2019.csv
 - Source: Kaggle (public NYC Airbnb dataset)
-- Access date: 2026
-- Key variables: price, neighbourhood_group, room_type, number_of_reviews
+- Access date: April 2026
+- Content: Information on Airbnb listings across New York City including host details, location, price, room type, minimum nights, number of reviews, and availability.
 
 ## 3. Methods (Python Workflow)
 1. Import libraries: pandas, matplotlib, seaborn

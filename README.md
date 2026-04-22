@@ -12,7 +12,7 @@ Target users:
 ## 2. Data
 - Dataset: AB_NYC_2019.csv
 - Source: Kaggle (public NYC Airbnb dataset)
-- Access date: April 2026
+- Access date: 13 April 2026
 - Content: Information on Airbnb listings across New York City including host details, location, price, room type, minimum nights, number of reviews, and availability.
 
 ## 3. Methods (Python Workflow)
@@ -41,11 +41,8 @@ The analysis is completed in Python using Jupyter Notebook. Main steps:
    pip install pandas matplotlib seaborn
 4. Run the Jupyter notebook or Python script
 
-## 6. Product Link & Demo Video
-- GitHub Repository: https://github.com/RuizheHuang24/ACC012_Track2_Airbnb.git
-- Demo Video: [PASTE YOUR VIDEO LINK HERE]
 
-## 7. Limitations & Next Steps
+## 6. Limitations & Next Steps
 Limitations:
 - Data is from 2019 and may not reflect current market conditions
 - Missing values may affect some calculations
